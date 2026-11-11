@@ -1,5 +1,7 @@
 {
     "model_name": "Random Forest",
+    "selection_criterion": "Mean F1-score from stratified 5-fold cross-validation",
+    "cross_validation_folds": 5,
     "target": "Machine failure",
     "input_features": [
         "Type",
@@ -15,6 +17,8 @@
         "Precision": 0.5897435897435898,
         "Recall": 0.6764705882352942,
         "F1-score": 0.6301369863013698,
-        "ROC-AUC": 0.9710601631957131
+        "ROC-AUC": 0.9710601631957131,
+        "CV F1 mean": 0.6256222857239164,
+        "CV F1 std": 0.0376065290254163
     }
 }
