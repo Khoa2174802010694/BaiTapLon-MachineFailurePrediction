@@ -1,0 +1,20 @@
+{
+    "model_name": "Random Forest",
+    "target": "Machine failure",
+    "input_features": [
+        "Type",
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+    ],
+    "metrics": {
+        "Model": "Random Forest",
+        "Accuracy": 0.973,
+        "Precision": 0.5897435897435898,
+        "Recall": 0.6764705882352942,
+        "F1-score": 0.6301369863013698,
+        "ROC-AUC": 0.9710601631957131
+    }
+}
